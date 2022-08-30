@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+
+body{
+	font-family: 'Rubik Dirt', cursive;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-color: #1C1C1C;
+	
+}
+nav{
+	padding-left: 10vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 5vh;
+	background-color: orange;
+}
+nav img{
+	float: left;
+	height: 50px;
+	width: 75px;
+	margin-top: 1hw;
+	margin-right: 2vw;
+	animation: animate 1.5s linear infinite;
+}
+.texto-menu{
+	display: flex;
+	float: right;
+	margin-right:35px;
+}
+#text p{
+	padding-right: 2vw;
+}
+#text a{
+	text-decoration:none;
+	color: black;
+}
+section.main{
+	text-align: center;
+	border-top: solid 10px orange;
+	background-color: #1C1C1C;
+	
+}
+section.main div.main-conteudo{
+	background-image: url('../img/dev.png');
+	background-size: cover;
+	margin-top:50px;
+	width: 100%;
+	height: 50vh;
+	border-bottom: solid 10px orange;
+	border-top: solid 10px orange;
+}
+section.main div.main-botao div.texto{
+	display: flex;
+	float: left;
+	margin-left:150px;
+	margin-top:-150px;
+}
+section.main div.main-botao div.texto a{
+	text-decoration:none;
+	color: black;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate{
+	0%{
+		opacity: 0.1;
+	}
+	50%{
+		opacity: 0.8;
+	}
+	100%{
+		opacity: 0.1;
+	}
+}
+div.barra{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 10vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 10vh;
+	background-color: orange;
+}
+div.barra2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 10vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 5vh;
+	background-color: orange;
+}
+/*SOBRE*/
+section.sobre div.sobre-texto h1{
+	text-align: center;
+	margin-left:35px;
+	color: orange;
+}
+section.sobre div.sobre-texto p{
+	text-align: center;
+	margin-left:35px;
+	color: orange;
+}
+section.sobre div.sobre-texto2 h1{
+	text-align: center;
+	margin-left:35px;
+	color: orange;
+}
+section.sobre div.sobre-texto2 p{
+	text-align: center;
+	margin-left:35px;
+	color: orange;
+}
+div.sobre-texto3 h2{
+	text-align: center;
+	margin-left:35px;
+	color: orange;
+}
+div.sobre-texto3 p{
+	text-align: center;
+	margin-left:35px;
+	color: orange;
+}
+/*SOBRE*/
+div.card{
+	font-family:  'Kanit', sans-serif;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	margin-top: 25px;
+	min-width: 20%;
+	max-width: 100%;
+	min-height: 100px;
+	display : flex;
+}
+div.card img{
+	max-width: 100%;
+	max-height: 200px;
+	min-height: 40%;
+	border-radius: 45%;
+	box-shadow: 2px 2px 20px orange;
+}
+div.card h2{
+	color: orange;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+div.card h4{
+	text-align: justify;
+	color: orange;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+/*NEGÓCIOS*/
+section.negocios div.cardN{
+	font-family:  'Kanit', sans-serif;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	min-width: 20%;
+	max-width: 20%;
+	min-height: 100px;
+	border-radius: 10%;
+	text-align: center;
+	box-shadow: 2px 2px 8px #B0E2FF;
+	height: 35vh;
+	width: 33%;
+	
+}
+section.negocios div.cardN h4{
+	font-family:'Rubik Dirt', cursive;
+	text-decoration:none;
+	color: black;
+}
+section.negocios div.cardN h3{
+	font-family:'Rubik Dirt', cursive;
+	text-decoration:none;
+	color: black;
+	text-shadow: 2px 2px 8px orange;
+}
+section.negocios div.cardN a{
+	font-family:'Rubik Dirt', cursive;
+	text-decoration:none;
+	color: black;
+}
+section.negocios{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+section.negocios div.cardN img{
+	max-width: 100%;
+	max-height: 200px;
+	min-height: 40%;
+	border-radius: 45%;
+	box-shadow: 2px 2px 20px orange;
+	display: center;
+}
+/*REVIEW*/
+section.review{
+	display: flex;
+	margin-top: 50px;
+	justify-content: center;
+}
+section.review div.cardR img{
+	max-width: 100%;
+	max-height: 200px;
+	min-height: 40%;
+	border-radius: 45%;
+	box-shadow: 2px 2px 20px orange;
+}
+section.review div.cardR{
+	font-family:  'Kanit', sans-serif;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	min-width: 20%;
+	max-width: 20%;
+	min-height: 100px;
+	border-radius: 10%;
+	text-align: center;
+	box-shadow: 2px 2px 8px #B0E2FF;
+	height: 35vh;
+	width: 33%;
+}
+section.review div.cardR h4{
+	font-family:'Rubik Dirt', cursive;
+	text-decoration:none;
+	color: black;
+}
+section.review div.cardR h3{
+	font-family:'Rubik Dirt', cursive;
+	text-decoration:none;
+	color: black;
+	text-shadow: 2px 2px 8px orange;
+}
+section.review div.cardR a{
+	font-family:'Rubik Dirt', cursive;
+	text-decoration:none;
+	color: black;
+}
+/*RODAPÉ*/
+div.rodape{
+	display: flex;
+	background-color: orange;
+	padding: 10px;
+}
+div.conteudo_rodape{
+	margin-left: 50px;
+	padding: 10px;
+	max-width: 37vw;
+	min-width: 37vw;
+}
+div.conteudo_rodape img{
+	width: 80px;
+	height: 60px;
+	text-align: center;
+}
+footer{
+	display: flex;
+	background-color: orange;
+}
+div.rodape p{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+}
+div.conteudo_rodape2 img{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	align-items: center;
+}
+.conteudo_rodape2{
+	margin-left: 10px;
+	padding: 10px;
+	max-width: 27vw;
+	min-width: 27vw;
+	margin-top: 35px;
+}
+div.conteudo_rodape3 p{
+	text-align: right;
+}
+div.conteudo_rodape3 a{
+	color: black;
+	margin-left: 90px;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.conteudo_rodape3{
+	padding: 10px;
+	max-width: 25vw;
+	min-width: 25vw;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+@media (max-width: 750px){
+	footer{
+		flex-direction: column;
+	}
+	section.negocios{
+		flex-direction: column;
+	}
+	}
+@media (min-width: 751px) and (max-width: 1000px){
+		
+}
+/*@media only screen and (max-width: 600px){
+  body {
+	  flex-direction: column;
+  }*/	  
+
+/*@media (min-width:320px)  {smartphones, iPhone, portrait 480x320 phones}*/
+/*@media (min-width:481px)  {portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.}*/
+/*@media (min-width:641px)  {portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones}*/
+/*@media (min-width:961px)  {tablet, landscape iPad, lo-res laptops ands desktops}*/
+/*@media (min-width:1025px) {big landscape tablets, laptops, and desktops}*/
+/*@media (min-width:1281px) {hi-res laptops and desktops}*/
